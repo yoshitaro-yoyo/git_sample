@@ -12,3 +12,10 @@ puts <<~TEXT
 SERECT * FROM USERS;
 
 TEXT
+
+
+
+users = ["saito","taira","yamada","hayashi"]
+users.each do |user|
+  puts users
+end
